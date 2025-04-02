@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 await updateProfile(userCredential.user, { displayName: fullName });
 
                 statusMessage.innerText = "✅ Registration successful! Redirecting...";
-                setTimeout(() => window.location.href = "login.html", 2000);
+                setTimeout(() => window.location.href = "index.html", 2000);
             } catch (error) {
                 statusMessage.innerText = `❌ ${error.message}`;
             }
