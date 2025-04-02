@@ -89,7 +89,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (logoutButton) {
         logoutButton.addEventListener("click", async () => {
             await signOut(auth);
-            window.location.href = "login.html";
+            window.location.href = "index.html";
         });
     }
 });
