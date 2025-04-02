@@ -29,7 +29,8 @@ Grocery Expiry Tracker is a web application that helps users keep track of their
 
 ## 📸 **Screenshots**  
 🔹 *Login Page*  
-![Login Screenshot](<img width="1470" alt="image" src="https://github.com/user-attachments/assets/462dfab7-728d-4f5b-9c6b-ab5bc4aacab2" />
+![Login Screenshot](<img width="1445" alt="Screenshot 2025-04-02 at 12 24 06 PM" src="https://github.com/user-attachments/assets/fe14a423-ce79-43c8-89fe-5547ad05e7a6" />
+
 )  
 
 🔹 *Dashboard*  
