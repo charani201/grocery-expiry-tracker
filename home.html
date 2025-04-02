@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery Expiry Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Firebase SDK -->
+    <script type="module" defer src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js"></script>
+    <script type="module" defer src="https://www.gstatic.com/firebasejs/9.6.1/firebase-auth.js"></script>
+    <script type="module" defer src="https://www.gstatic.com/firebasejs/9.6.1/firebase-firestore.js"></script>
+    
+    <!-- Firebase Config & Scripts -->
+    <script type="module" defer src="firebase.js"></script>
+    <script type="module" defer src="auth.js"></script> 
+
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Grocery Expiry Tracker</h1>
+            <p class="tagline">Manage your groceries, reduce waste, and never miss an expiry date again!</p>
+        </header>
+        
+        <!-- Logout Button -->
+        <button id="logout-button" class="logout-btn">Logout</button>
+        
+        <nav>
+            <ul>
+                <li><a href="add-item.html" class="cta-button">Add Item</a></li>
+                <li><a href="view-item.html" class="cta-button">View Items</a></li>
+                <li><a href="expired-items.html" class="cta-button">Expired Items</a></li>
+            </ul>
+        </nav>
+
+        <footer>
+            <p>&copy; 2025 Grocery Expiry Tracker | All rights reserved</p>
+        </footer>
+    </div>
+</body>
+</html>
+
+

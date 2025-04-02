@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Grocery Item</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="module" defer src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js"></script>
+    <script type="module" defer src="https://www.gstatic.com/firebasejs/9.6.1/firebase-firestore.js"></script>
+    <!-- Firebase Config Script -->
+    <script type="module" defer src="firebase.js"></script>
+    <!-- Your Custom Script -->
+    <script type="module" defer src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Add Grocery Item</h1>
+        <form id="add-item-form">
+            <input type="text" id="name" placeholder="Enter grocery item" required>
+            <input type="date" id="expiry" required>
+            <select id="category">
+                <option value="Dairy">Dairy</option>
+                <option value="Vegetables">Vegetables</option>
+                <option value="Snacks">Snacks</option>
+                <option value="Others">Others</option>
+            </select>
+            <button type="submit" class="add-item-btn">Add Item</button>
+            <p id="status"></p>
+        </form>
+    </div>
+</body>
+</html>
+
